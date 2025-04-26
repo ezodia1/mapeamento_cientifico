@@ -236,7 +236,60 @@ div#redes-sociais img:hover {
     align-items: center;
 }
 
+#depoimentos h2 {
+    padding: 0px;
+    background-color: var(--cor-fundo-escuro-secundario);
+    width: 100%;
+    color: var(--cor-fundo);
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 2em;
+    font-weight: 600;
+}
 
+.carrossel-depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.depoimento, .depoimento-ativo {
+    min-width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.1em;
+    color: var(--cor-fundo);
+  }
+
+.container-depoimentos {
+    background-color: var(--cor-fundo-escuro-secundario);
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 400px; 
+    overflow: hidden;
+    border: 5px solid var(--cor-fundo-escuro);
+    border-radius: 0px 60px 60px 60px;
+  }
+
+  .seta-esquerda, .seta-direita {
+    background-color: var(--cor-detalhes);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    color: var(--cor-fundo);
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .seta-esquerda:hover, .seta-direita:hover {
+    background-color: var(--cor-destaque);
+  }
 
 footer {
     width: 99vw;
