@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Glacial';
+    src: url(../fontes/GlacialIndifference-Regular.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-fundo-escuro: #030e27;
+    --cor-fundo-escuro-secundario: #051d40;
+    --cor-detalhes: #7A9BAD;
+    --cor-destaque: #b1d4e0;
+    --cor-fundo: #fdf9f6;
+    --fonte-titulo: 'League Spartan', sans-serif;
+    --fonte-texto: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-texto),Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: var(--cor-destaque);
+    line-height: 1.6;
+}
+
+main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    margin: 0 auto;
+    width: 99vw;
+    height: 180px;
+    background-color: var(--cor-fundo);
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 5% 50% 5% 35% 5%;
+}
+
+header > div > h1 {
+    font-size: 4em;
+}
+
+.nome-site {
+    line-height: 1;
+    height: fit-content;
+    display: flex;
+    gap: 1rem;
+    grid-area: 2 / 2 / 3 / 3;
+    justify-content: center;
+    align-self: center;
+}
+
+#map {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-fundo-escuro-secundario);
+}
+
+#cient {
+    font-family: 'Glacial';
+    font-weight: 100;
+    color: var(--cor-fundo-escuro-secundario);
+}
+
+.logotipo {
+    max-width: 150px;
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+#foto-prof {
+    height: 200px;
+}
+
+nav {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.menu {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
