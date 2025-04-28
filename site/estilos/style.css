@@ -360,7 +360,7 @@ div#redes-sociais img:hover {
 }
 
 footer {
-    width: 99vw;
+    width: 100%;
     background-color: var(--cor-fundo-escuro-secundario);
     color: var(--cor-fundo);
     margin: 0 auto;
