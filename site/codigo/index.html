@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
     <title>Mapeamento Científico</title>
     <link rel="stylesheet" href="../estilos/style.css">
+    <meta name="description" content="Mapeamento Científico: soluções com geotecnologias, drones, cartografia e análise de dados para pesquisa acadêmica e desenvolvimento sustentável.">
+
 </head>
 <body>
     <header>
@@ -22,12 +24,19 @@
             </ul>
         </nav>
     </header>
+
+    <section id="intro">
+        <div class="intro-content">
+            <h2>Geotecnologias como Ferramenta para o Avanço da sua Pesquisa Científica</h2>
+            <p>Fornecemos soluções para pesquisadores e acadêmicos, transformando dados geográficos em informações valiosas que contribuem para o avanço da ciência.</p>
+            <button class="saber-mais">SABER MAIS</button>
+        </div>
+        <img src="../imagens/imagem-intro.png" alt="Mapa do planeta Terra">
+        
+    </section>
+
+    <div id="bottom-bar"></div>
     <main>
-        <section id="intro">
-            <h2>Geotecnologias como ferramenta para o avanço da sua pesquisa científica</h2>
-            <img src="../imagens/mapa-intro.jpg" alt="Mapa do planeta Terra">
-            <p>Bem-vindo ao Mapeamento Científico! Fornecemos soluções para pesquisadores e acadêmicos, transformando dados geográficos em informações valiosas para a pesquisa científica. Através da coleta de dados espaciais e análise detalhada, oferecemos mapeamentos precisos e detalhados que contribuem para o avanço da ciência, integrando conhecimento técnico e responsabilidade ambiental.</p>
-        </section>
         <section id="about">
             <h2>QUEM SOMOS</h2>
             <div id="texto-about">
@@ -38,13 +47,6 @@
                 <h3>Nossos Trabalhos</h3>
                 <p>Nossos trabalhos integram tecnologia de ponta e práticas sustentáveis para mapear e analisar territórios com precisão. Utilizando drones, cartografia avançada e análise de dados geoespaciais, oferecemos soluções inovadoras que contribuem para o desenvolvimento sustentável e o avanço científico.</p>
             </div>
-            <!--<h3>Serviços</h3>
-            <ul>
-                <li>Elaboração de Cartografias</li>
-                <li>Mapeamento com drones</li>
-                <li>Elaboração de dashboards e análise de dados geográficos</li>
-                <li>Cursos, palestras, workshops, mentorias, aulas particulares</li>
-            </ul>-->
             <div id="redes-sociais">
                 <a href="http://lattes.cnpq.br/9074110018456619" target="_blank"><img src="../imagens/logo-lattes.png" alt="Lattes"></a><br>
                 <a href="https://linkedin.com/in/hildebertomacedo/" target="_blank"><img src="../imagens/logo-linkedin.png" alt="LinkedIn"></a><br>
@@ -53,6 +55,49 @@
                 <a href="https://www.researchgate.net/profile/Hildeberto-Macedo" target="_blank"><img src="../imagens/logo-researchgate.png" alt="ResearchGate"></a>
             </div>
         </section>
+        <!-- <section id="services">
+            <h3>SERVIÇOS</h3>
+            <ul class="cards-service">
+                <li>
+                    <img src="../imagens/map-icon.png" alt="Icone Mapa">
+                    <p>Elaboração de Cartografias</p>
+                </li>
+                <li>
+                    <img src="../imagens/drone-icon.png" alt="Icone Drone">
+                    <p>Mapeamento com drones</p>
+                </li>
+                <li>
+                    <img src="../imagens/dashboard-icon.png" alt="Icone Dashboard">
+                    <p>Elaboração de dashboards e análise de dados geográficos</p>
+                </li>
+                <li>
+                    <img src="../imagens/lecture-icon.png" alt="Icone Lecture">
+                    <p>Cursos, palestras, workshops, mentorias, aulas particulares</p>
+                </li>
+            </ul>
+        </section> -->
+
+        <section class="section" id="services">
+        <h2>NOSSOS SERVIÇOS</h2>
+        <div class="services-grid">
+            <div class="service-card loading">
+                <img src="../imagens/map-icon.png" alt="Icone Mapa">
+                <p>Elaboração de Cartografias</p>
+            </div>
+            <div class="service-card loading">
+                <img src="../imagens/drone-icon.png" alt="Icone Drone">
+                <p>Mapeamento com Drones</p>
+            </div>
+            <div class="service-card loading">
+                <img src="../imagens/dashboard-icon.png" alt="Icone Dashboard">
+                <p>Dashboards e Análise de Dados Geográficos</p>
+            </div>
+            <div class="service-card loading">
+                <img src="../imagens/lecture-icon.png" alt="Icone Lecture">
+                <p>Cursos, Palestras, Workshops, Mentorias, Aulas Particulares</p>
+            </div>
+        </div>
+    </section>
         <div id="author">
             <h2>SOBRE MIM</h2>
             <img src="../imagens/foto-profissional.jpg" alt="Foto de Hildeberto Macêdo" id="foto-prof">
@@ -61,21 +106,29 @@
         <section id="depoimentos">
             <h2>DEPOIMENTOS</h2>
             <div class="carrossel-depoimentos">
-                <button class="seta-esquerda">⟵</button>
+                <button class="seta-esquerda" aria-label="Depoimento anterior">‹</button>
 
-                <div class="container-depoimentos">
-                    <div class="depoimento-ativo">
-                        <p class="mensagem">"Obrigada pela aula de Geo, você tem uma ótima didática, paciêrncia e é nítido que domina o conteúdo. Em uma tarde consegui aprender os passos iniciais para fazer um mapa e fiquei bem feliz com isso, vai ajudar na minha dissertação de mestrado e quem sabe em trabalhos futuros."</p>
-                    </div>
-                    <div class="depoimento">
-                        <p class="mensagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quisquam excepturi neque quis corporis! Error minima placeat laudantium quam, nisi deserunt illo tenetur nulla, magnam pariatur ut consequuntur unde maiores.</p>
-                    </div>
-                    <div class="depoimento">
-                        <p class="mensagem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, hic. Nihil perspiciatis dolorem eligendi ipsum in quo laudantium reprehenderit beatae quia minima eaque rerum laborum deleniti, blanditiis rem excepturi alias.</p>
+                <div class="carrossel-wrapper">
+                    <div class="container-depoimentos">
+                        <div class="depoimento">
+                            <p>"Obrigada pela aula de Geo, você tem uma ótima didática, paciência e é nítido que domina o conteúdo. Em uma tarde consegui aprender os passos iniciais para fazer um mapa e fiquei bem feliz com isso, vai ajudar na minha dissertação de mestrado e quem sabe em trabalhos futuros."</p>
+                        </div>
+                        <div class="depoimento">
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur asperiores odio aliquam dolorem non provident animi quibusdam ipsam nobis quod sint, illo nisi neque esse sapiente magni quidem. Quo."</p>
+                        </div>
+                        <div class="depoimento">
+                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit consectetur asperiores odio aliquam dolorem non provident animi quibusdam ipsam nobis quod sint, illo nisi neque esse sapiente magni quidem. Quo."</p> 
+                        </div>
                     </div>
                 </div>
 
-                <button class="seta-direita">⟶</button>
+                <button class="seta-direita" aria-label="Próximo depoimento">›</button>
+            </div>
+            
+            <div class="indicadores">
+                <span class="indicador ativo" data-slide="0"></span>
+                <span class="indicador" data-slide="1"></span>
+                <span class="indicador" data-slide="2"></span>
             </div>
         </section>
         <div id="faq-div">
@@ -141,5 +194,64 @@
             &copy; 2025 Mapeamento Científico. Todos os direitos reservados. 58.001.993 Hildeberto Ferreira de Macedo Filho. CNPJ: 58.001.993/0001-04
         </small>
     </footer>
+    <script>
+        class CarrosselDepoimentos {
+            constructor() {
+                this.container = document.querySelector('.container-depoimentos');
+                this.depoimentos = document.querySelectorAll('.depoimento');
+                this.botaoEsquerda = document.querySelector('.seta-esquerda');
+                this.botaoDireita = document.querySelector('.seta-direita');
+                this.indicadores = document.querySelectorAll('.indicador');
+                
+                this.indiceAtual = 0;
+                this.totalDepoimentos = this.depoimentos.length;
+                this.larguraDepoimento = 500;
+                
+                this.init();
+            }
+            
+            init() {
+                this.botaoDireita.addEventListener('click', () => this.proximoDepoimento());
+                this.botaoEsquerda.addEventListener('click', () => this.depoimentoAnterior());
+                
+                this.indicadores.forEach((indicador, index) => {
+                    indicador.addEventListener('click', () => this.irParaDepoimento(index));
+                });
+                
+                this.atualizarCarrossel();
+            }
+            
+            atualizarCarrossel() {
+                const translateX = -this.indiceAtual * this.larguraDepoimento;
+                this.container.style.transform = `translateX(${translateX}px)`;
+                this.atualizarIndicadores();
+            }
+            
+            proximoDepoimento() {
+                this.indiceAtual = (this.indiceAtual + 1) % this.totalDepoimentos;
+                this.atualizarCarrossel();
+            }
+            
+            depoimentoAnterior() {
+                this.indiceAtual = (this.indiceAtual - 1 + this.totalDepoimentos) % this.totalDepoimentos;
+                this.atualizarCarrossel();
+            }
+            
+            irParaDepoimento(index) {
+                this.indiceAtual = index;
+                this.atualizarCarrossel();
+            }
+            
+            atualizarIndicadores() {
+                this.indicadores.forEach((indicador, index) => {
+                    indicador.classList.toggle('ativo', index === this.indiceAtual);
+                });
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            new CarrosselDepoimentos();
+        });
+    </script>
 </body>
 </html>
